@@ -106,10 +106,6 @@ export default {
       formData.set("phone", this.phone);
       formData.set("message", this.message.trim());
 
-      for (let [name, value] of formData) {
-        console.log(`${name} = ${value}`); // key1=value1, потом key2=value2
-      }
-
       fetch("https://backend.cyberia.studio/api/v1/feedbacks", {
         method: "POST",
         body: formData,

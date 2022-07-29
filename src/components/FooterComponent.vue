@@ -97,11 +97,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(207px, 1fr));
-  justify-items: center;
-  justify-content: center;
-  gap: 3.3125rem 7.5rem; */
 }
 
 .footer__company {

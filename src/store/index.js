@@ -14,12 +14,6 @@ export default new Vuex.Store({
     GET_PROJECTS_CATEGORIES: (state) => state.projectsCategories,
     GET_SELECTED_CATEGORY_OF_PROJECTS: (state) =>
       state.selectedCategoryOfProjects,
-    // GET_FILTERED_PROJECTS_DATA: (state) =>
-    //   state.projectsData.filter((item) => {
-    //     item.categories.forEach((item) =>
-    //       item.id === state.selectedCategoryOfProjects ? true : false
-    //     );
-    //   }),
   },
   mutations: {
     SET_PROJECTS_DATA: (state, data) => (state.projectsData = data.items),
