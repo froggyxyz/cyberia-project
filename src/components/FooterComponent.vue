@@ -63,7 +63,7 @@
       <address class="footer__contacts">
         <a href="tel:+74996794579">+7 499 679 45 79</a>
         <router-link to="/">Главная</router-link>
-        <router-link to="/blog">Главная</router-link>
+        <router-link to="/blog">Блог</router-link>
         <a href="mailto:hello@cyberia.ru">hello@cyberia.ru</a>
         <router-link to="/services">Услуги</router-link>
         <router-link to="/about">О нас</router-link>
